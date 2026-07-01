@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration Form</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>Student Registration Form</h1>
+
+<form id="studentForm">
+
+<div class="imageBox">
+
+<img id="preview"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+
+<input type="file"
+id="photo"
+accept="image/*">
+
+</div>
+
+<div class="inputBox">
+<label>Student ID</label>
+<input type="text" id="id" required>
+</div>
+
+<div class="inputBox">
+<label>Full Name</label>
+<input type="text" id="name" required>
+</div>
+
+<div class="inputBox">
+<label>Age</label>
+<input type="number" id="age" required>
+</div>
+
+<div class="inputBox">
+<label>Date of Birth</label>
+<input type="date" id="dob">
+</div>
+
+<div class="inputBox">
+<label>Gender</label>
+
+<select id="gender">
+
+<option>Male</option>
+
+<option>Female</option>
+
+</select>
+
+</div>
+
+<div class="inputBox">
+<label>Phone Number</label>
+<input type="text" id="phone">
+</div>
+
+<div class="inputBox">
+<label>Email</label>
+<input type="email" id="email">
+</div>
+
+<div class="inputBox">
+<label>Department</label>
+
+<select id="department">
+
+<option>Computer Science</option>
+
+<option>Information Technology</option>
+
+<option>Software Engineering</option>
+
+<option>Accounting</option>
+
+<option>Management</option>
+
+<option>Civil Engineering</option>
+
+</select>
+
+</div>
+
+<div class="inputBox">
+<label>Year</label>
+
+<select id="year">
+
+<option>1</option>
+
+<option>2</option>
+
+<option>3</option>
+
+<option>4</option>
+
+<option>5</option>
+
+</select>
+
+</div>
+
+<div class="inputBox">
+<label>Registration Date</label>
+<input type="date" id="regDate">
+</div>
+
+<div class="inputBox full">
+<label>Address</label>
+
+<textarea id="address"></textarea>
+
+</div>
+
+<div class="buttons">
+
+<button type="submit">
+Register Student
+</button>
+
+<button type="reset">
+Reset
+</button>
+
+</div>
+
+</form>
+
+<p id="message"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
